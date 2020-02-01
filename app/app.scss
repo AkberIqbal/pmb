@@ -1,0 +1,65 @@
+/* app css stylesheet */
+
+div {
+    font: 100% Helvetica, sans-serif;
+    color: #333;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.errorMsg {
+    color: red;
+}
+
+div {
+
+    button {
+        margin-left: 10px;
+        padding: 5px 10px;
+    }
+
+    select {
+        padding: 5px;
+    }
+}
+
+.container {
+    margin: auto;
+    max-width: 400px;
+
+    #errorArea {
+        color: red;
+    }
+
+    .progressBar {
+        margin: 5% 0;
+        height: 60px;
+        border: 1px solid gray;
+        width: 100%;
+
+        .progressArea {
+            background: lightblue;
+            height: 100%;
+            transition: width 500ms ease-in-out;
+            -webkit-transition: width 500ms ease-in-out;
+        }
+
+        span {
+            position: absolute;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+            padding-top: 20px;
+        }
+
+        .redClass {
+            background-color: red;
+            transition: background-color 500ms ease-in-out;
+            -webkit-transition: background-color 500ms ease-in-out;
+        }
+    }
+}

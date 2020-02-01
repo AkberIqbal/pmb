@@ -1,0 +1,6 @@
+<div class='progressBar'>
+    <span>{{$ctrl.val}}% {{$ctrl.limit}} </span>
+    <div class="progressArea" ng-class="{ redClass: $ctrl.val >= 100 }"
+        ng-style="{ 'width': ($ctrl.val > 100 ) ? '100%' : ($ctrl.val <=0) ? '0%' : $ctrl.val+'%'  }"
+        value="$ctrl.limit"></div>
+</div>
