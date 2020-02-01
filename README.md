@@ -40,4 +40,4 @@ app/                  --> all of the source files for the application
 
 ### Running the App in Production
 
-run the command `grunt` to uglify, minify, convert scss files
+run the command `grunt` to uglify, minify, convert scss files into the /dist folder
