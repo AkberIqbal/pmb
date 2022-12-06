@@ -21,7 +21,7 @@
     "cpx": "^1.5.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.2"
   },
   "scripts": {
     "postinstall": "npm run copy-libs",
